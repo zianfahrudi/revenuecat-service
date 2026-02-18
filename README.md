@@ -19,7 +19,9 @@ Add the dependency to your `pubspec.yaml`:
 ```yaml
 dependencies:
   revenuecat_service:
-    path: ./ # or git url
+    git:
+      url: https://github.com/zianfahrudi/revenuecat-service.git
+      ref: master # or specific tag/branch
 ```
 
 ## Usage
